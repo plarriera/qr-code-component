@@ -22,15 +22,15 @@ This my solution to the [QR code component challenge on Frontend Mentor](https:/
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first worflow
+- Mobile-first workflow
 
 ### 📚 What I learned
 
-My main goal when taking on this challenge was to learn how to use Git and GitHub. I learned how to work with the Linux command line to initiate a repository, using remote repositories, commiting and pushing changes. For this, [Git and Github tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by Ihechikara Vincent Abba was extremely helpful. As for the challenge itself, I also learned how to vertically and horizontally align a `<div>` with the `position` and `transform` properties.
+My main goal when taking on this challenge was to learn how to use Git and GitHub. I learned how to work with the Linux command line to initiate a repository, us remote repositories, commit and push changes. For this, [Git and Github tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by Ihechikara Vincent Abba was extremely helpful. As for the challenge itself, I also learned how to vertically and horizontally align a `<div>` with the `position` and `transform` properties.
 
 ### 💡 Continued development
 
- In future projects, I'd like to get more comfortable with using Git on the command line and commit more often. On top of that, I'm keen on playing more with the `box-shadow` property to see what I can come up with.
+In future projects, I'd like to get more comfortable with using Git on the command line and commit more often. On top of that, I'm interested in playing more with the `box-shadow` property to see what I can come up with.
 
  ## 👩‍💻 Author
 
