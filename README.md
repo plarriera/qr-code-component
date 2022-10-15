@@ -13,7 +13,7 @@ This my solution to the [QR code component challenge on Frontend Mentor](https:/
 
 ## Preview 🔍
 
-![A desktop computer and a phone showcasing screenshots of the solution.](../qrcodecomponent-preview.jpg)
+![A desktop computer and a phone showcasing screenshots of the solution.](./qrcodecomponent-preview.jpg)
 *Mockup by [denamorado](https://www.freepik.com/free-psd/digital-devices-screen-editable_32084754.htm#query=desktop%20and%20phone%20mockup&position=4&from_view=keyword) on Freepik.
 
 ## My process 🌱
