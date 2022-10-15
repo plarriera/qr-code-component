@@ -30,3 +30,8 @@ My main goal when taking on this challenge was to learn how to use Git and GitHu
 ### Continued development
 
  In future projects, I'd like to get more comfortable with using Git on the command line and commit more often. On top of that, I'm keen on playing more with the `box-shadow` property to see what I can come up with.
+
+ ## Author
+
+- GitHub: [plarriera](https://github.com/plarriera)
+- Frontend Mentor: [@plarriera](https://www.frontendmentor.io/profile/plarriera)
