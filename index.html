@@ -10,24 +10,71 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --gray: hsl(212, 45%, 89%);
+      --grayishblue: hsl(220, 15%, 55%);
+      --darkblue: hsl(218, 44%, 22%);
+    }
+
+    body {
+      font-size: 15px;
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--gray);
+      text-align: center;
+    }
+
+    main {
+      background-color: var(--white);
+      width: 80vw;
+      padding: 16px;
+      border-radius: 24px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-weight: 700;
+      color: var(--darkblue);
+      font-size: 1.5em;
+    }
+
+    p {
+      font-weight: 400;
+      color: var(--grayishblue);
+    }
+
+    .desc {
+      width: 90%;
+      margin: auto;
+    }
+
   </style>
 </head>
 <body>
   <main>
-    <figure>
       <img src="./images/image-qr-code.png" alt="QR code">
-      <figcaption>
-        <div>Improve your front-end skills by building projects</div>
-        <div>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
-      </figcaption>
-    </figure>
+      <div class="desc">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
   </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">plarriera</a>.
   </div>
 </body>
 </html>
