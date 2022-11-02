@@ -5,34 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Frontend Mentor | 3-column preview card component</title>
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --gray: hsl(212, 45%, 89%);
+      --grayishblue: hsl(220, 15%, 55%);
+      --darkblue: hsl(218, 44%, 22%);
+    }
+
+    body {
+      font-size: 15px;
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--gray);
+      text-align: center;
+    }
+
+    main {
+      background-color: var(--white);
+      width: 80vw;
+      padding: 16px;
+      border-radius: 24px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0px 15px 50px -20px var(--grayishblue); /*tried my best to nail the original shadow with the preestablished colours, i think it's close enough*/
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-weight: 700;
+      color: var(--darkblue);
+      font-size: 1.5em;
+    }
+
+    p {
+      font-weight: 400;
+      color: var(--grayishblue);
+    }
+
+    .desc {
+      width: 90%;
+      margin: auto;
+    }
+    
+    @media (min-width: 400px) { main { width: 50vw; } }
+    @media (min-width: 800px) { main { width: 20vw; } }
+
+  </style>
 </head>
 <body>
   <main>
-    <section id="sedans">
-      <img src="images/icon-sedans.svg" alt="Graphic of a sedan.">
-      <h2>Sedans</h2>
-      <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-      or on your next road trip.</p>
-      <button>Learn More</button>
-    </section>
-    <section id="suvs">
-      <img src="images/icon-suvs.svg" alt="Graphic of a SUV.">
-      <h2>SUVs</h2>
-      <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-      and off-road adventures.</p>
-      <button>Learn More</button>
-    </section>
-    <section id="luxury">
-      <img src="images/icon-luxury.svg" alt="Graphic of a luxury car.">
-      <h2>Luxury</h2>
-      <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-      rental and arrive in style.</p>
-      <button>Learn More</button>
-    </section>
+      <img src="./images/image-qr-code.png" alt="QR code">
+      <div class="desc">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
   </main>
-  
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/plarriera">plarriera</a>.
